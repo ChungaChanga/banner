@@ -1,8 +1,9 @@
+var targetID = 'banner_container';//ID блока для вставки баннера
 var targetTag = document.createElement('div');
-targetTag.id = 'banner_container';
+targetTag.id = targetID;
 
 
-//var targetID = 'banner_container';//ID блока для вставки баннера
+
 var HTML = '<div id="bannerTiberis">\
               <p>Привет, я баннер</br>\
                 <a href="https://www.tiberis.ru/">\
