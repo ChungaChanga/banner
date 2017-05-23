@@ -9,9 +9,12 @@ var HTML = '<div id="bannerTiberis">\
                 <a href="https://www.tiberis.ru/">\
                   <img src="https://cdn.rawgit.com/ChungaChanga/banner/991a157c/image.png"></p>\
                 </a>\
+                <a href="https://www.tiberis.ru/">\
+                  <img src="https://cdn.rawgit.com/ChungaChanga/banner/991a157c/image.png"></p>\
+                </a>\
             </div>';//HTML баннера
 var CSS = '#' + targetID +' p{font-size: 40pt; text-align: center;} #' + 
-                targetID + ' img{width: 600px;} #bannerTiberis{margin:auto;}';// CSS баннера
+                targetID + ' img{width: 1108px;height:140px;} #bannerTiberis{margin:auto;width:1108px;height:140px;border:2px solid;}';// CSS баннера
 
 var bannerTag = document.createElement('div');
 var CSSTag = document.createElement('style');
